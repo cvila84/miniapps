@@ -2,11 +2,11 @@ apiVersion: v1
 entries:
   cassandra:
   - appVersion: 3.11.2
-    created: 2018-10-04T21:51:51.952479867Z
+    created: 2018-10-05T05:51:15.75167926Z
     description: Apache Cassandra is a free and open-source distributed database management
       system designed to handle large amounts of data across many commodity servers,
       providing high availability with no single point of failure.
-    digest: 8b2eccfcd1e3285f16a1920a67d2f5b7216dc05dfb0ce2b75b518cfcd855b49d
+    digest: 05be262ac09444c99d788b04d70713ef4aec52b6e7e46d6d7ad711110127dffd
     icon: https://gemalto.github.io/miniapps/icons/cassandra.png
     keywords:
     - cassandra
@@ -20,14 +20,14 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/cassandra
     urls:
-    - https://cvila84.github.io/miniapps/cassandra-1.0.0+build.11.tgz
-    version: 1.0.0+build.11
+    - https://cvila84.github.io/miniapps/cassandra-1.0.0+build.12.tgz
+    version: 1.0.0+build.12
   cilium:
   - appVersion: 1.1.0
-    created: 2018-10-04T21:51:51.953298524Z
+    created: 2018-10-05T05:51:15.752458833Z
     description: Cilium brings API-aware network security filtering to Linux container
       frameworks like Docker and Kubernetes.
-    digest: 6ae8cf50c6b7da03e364c7fcb506ca6f7ddb00d7da73a200f1f6ba21743d4598
+    digest: c4943b129ce866b5013a7cbbb615da8742b2f4ecd50cdec56f7262f44d9a0d46
     icon: https://gemalto.github.io/miniapps/icons/cilium.png
     keywords:
     - cilium
@@ -41,13 +41,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/cilium
     urls:
-    - https://cvila84.github.io/miniapps/cilium-1.0.0+build.11.tgz
-    version: 1.0.0+build.11
+    - https://cvila84.github.io/miniapps/cilium-1.0.0+build.12.tgz
+    version: 1.0.0+build.12
   grafana:
   - appVersion: 5.0.0
-    created: 2018-10-04T21:51:51.95826396Z
+    created: 2018-10-05T05:51:15.757515038Z
     description: Manifests, dashboards, and alerting rules for ota-cloud monitoring.
-    digest: ef63ae35bbb65e4a772223aa57039be2f913eddf861c01b4c602db8abbf55494
+    digest: 7a9fb47cdd0194e8c2d891ebefd6a5935760abc72f8756c4758bfc5a10e557f6
     icon: https://gemalto.github.io/miniapps/icons/grafana.png
     keywords:
     - grafana
@@ -62,13 +62,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/grafana
     urls:
-    - https://cvila84.github.io/miniapps/grafana-1.0.0+build.11.tgz
-    version: 1.0.0+build.11
+    - https://cvila84.github.io/miniapps/grafana-1.0.0+build.12.tgz
+    version: 1.0.0+build.12
   heapster:
   - appVersion: 1.3.0
-    created: 2018-10-04T21:51:51.958622205Z
+    created: 2018-10-05T05:51:15.757873932Z
     description: Heapster enables Container Cluster Monitoring and Performance Analysis.
-    digest: 1a972d07189f3e049fee74116efa484b31a23e55fbccd00547892f02af2dddf3
+    digest: 7ad8d5a3703345558b83f1f293c94714475b3d42831f62ede50ee7788311abed
     icon: https://gemalto.github.io/miniapps/icons/heapster.png
     keywords:
     - heapster
@@ -83,13 +83,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/heapster
     urls:
-    - https://cvila84.github.io/miniapps/heapster-1.0.0+build.11.tgz
-    version: 1.0.0+build.11
+    - https://cvila84.github.io/miniapps/heapster-1.0.0+build.12.tgz
+    version: 1.0.0+build.12
   kibana:
   - appVersion: 6.2.4
-    created: 2018-10-04T21:51:51.959287835Z
+    created: 2018-10-05T05:51:15.758532279Z
     description: Kibana is an open source data visualization plugin for Elasticsearch.
-    digest: bbeec98ddbd6ab429fb8ff23c15c195d4c7bffea61024132b485fe8d82a21cfc
+    digest: dcaa4a7489a95123f3aac964bf39effef855625b2ae477ca8cb1f690ff018937
     icon: https://gemalto.github.io/miniapps/icons/kibana.png
     keywords:
     - kibana
@@ -104,13 +104,13 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/kibana
     urls:
-    - https://cvila84.github.io/miniapps/kibana-1.0.0+build.11.tgz
-    version: 1.0.0+build.11
+    - https://cvila84.github.io/miniapps/kibana-1.0.0+build.12.tgz
+    version: 1.0.0+build.12
   pact-broker:
   - appVersion: 2.23.3-1
-    created: 2018-10-04T21:51:51.959600418Z
+    created: 2018-10-05T05:51:15.758820762Z
     description: Pact Broker chart for developers.
-    digest: c46491e78f85ccdca3aa039961c6f39296426db31884932d51cc74cd82b27920
+    digest: 0950d25e00525110510fe57838588c5f513f830e82f9d562022485d35babb84d
     icon: https://gemalto.github.io/miniapps/icons/pact-broker.png
     keywords:
     - pact broker
@@ -124,6 +124,6 @@ entries:
     sources:
     - https:///github.com/gemalto/miniapps/tree/master/charts/pact-broker
     urls:
-    - https://cvila84.github.io/miniapps/pact-broker-1.0.0+build.11.tgz
-    version: 1.0.0+build.11
-generated: 2018-10-04T21:51:51.951418916Z
+    - https://cvila84.github.io/miniapps/pact-broker-1.0.0+build.12.tgz
+    version: 1.0.0+build.12
+generated: 2018-10-05T05:51:15.750228103Z
